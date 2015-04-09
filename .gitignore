@@ -12,7 +12,7 @@ proxy/Vagrantfile.proxy
 /app/phpunit.xml
 /build/
 /vendor/
-/bin/
+/bin/*
 !/bin/vagrant*
 
 
