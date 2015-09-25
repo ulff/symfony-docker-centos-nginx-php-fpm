@@ -18,5 +18,5 @@ chown -R www:www /run/user/nginx-cache*
 #echo fastcgi_param RDS_PASSWORD $RDS_PASSWORD';' >> /etc/nginx/fastcgi_params
 #echo fastcgi_param RDS_USERNAME $RDS_USERNAME';' >> /etc/nginx/fastcgi_params
 #echo fastcgi_param RDS_PORT $RDS_PORT';' >> /etc/nginx/fastcgi_params
-echo fastcgi_param SYMFONY__MONGO__HOST $MONGO_PORT_27017_TCP_ADDR';' >> /etc/nginx/fastcgi_params
-echo fastcgi_param SYMFONY__MONGO__PORT $MONGO_PORT_27017_TCP_PORT';' >> /etc/nginx/fastcgi_params
+#echo fastcgi_param SYMFONY__MONGO__HOST $MONGO_PORT_27017_TCP_ADDR';' >> /etc/nginx/fastcgi_params
+#echo fastcgi_param SYMFONY__MONGO__PORT $MONGO_PORT_27017_TCP_PORT';' >> /etc/nginx/fastcgi_params
